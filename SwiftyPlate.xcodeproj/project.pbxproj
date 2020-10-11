@@ -14,42 +14,44 @@
 		9DEE7D71253345E8006FFEB4 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEE7D70253345E8006FFEB4 /* Assets.xcassets */; };
 		9DEE7D74253345E8006FFEB4 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 9DEE7D72253345E8006FFEB4 /* LaunchScreen.storyboard */; };
 		9DEE7D7E253346E1006FFEB4 /* Colors.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 9DEE7D7D253346E1006FFEB4 /* Colors.xcassets */; };
-		9DEE7D96253348C8006FFEB4 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEE7D8C253348B0006FFEB4 /* Rswift.framework */; };
-		9DEE7D97253348C8006FFEB4 /* Rswift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEE7D8C253348B0006FFEB4 /* Rswift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DEE7D9B25334B71006FFEB4 /* rswift in Resources */ = {isa = PBXBuildFile; fileRef = 9DEE7D9A25334B71006FFEB4 /* rswift */; };
+		9DEE7DC125334CE0006FFEB4 /* Rswift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEE7DB825334CD8006FFEB4 /* Rswift.framework */; };
+		9DEE7DC225334CE0006FFEB4 /* Rswift.framework in Embed Frameworks */ = {isa = PBXBuildFile; fileRef = 9DEE7DB825334CD8006FFEB4 /* Rswift.framework */; settings = {ATTRIBUTES = (CodeSignOnCopy, RemoveHeadersOnCopy, ); }; };
+		9DEE7DC425334DCA006FFEB4 /* R.generated.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9DEE7DC325334DCA006FFEB4 /* R.generated.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		9DEE7D8B253348B0006FFEB4 /* PBXContainerItemProxy */ = {
+		9DEE7DB725334CD8006FFEB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */;
+			containerPortal = 9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D592464E1C117A55007F94C7;
 			remoteInfo = "Rswift-iOS";
 		};
-		9DEE7D8D253348B0006FFEB4 /* PBXContainerItemProxy */ = {
+		9DEE7DB925334CD8006FFEB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */;
+			containerPortal = 9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = D59246581C117A55007F94C7;
 			remoteInfo = "RswiftTests-iOS";
 		};
-		9DEE7D8F253348B0006FFEB4 /* PBXContainerItemProxy */ = {
+		9DEE7DBB25334CD8006FFEB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */;
+			containerPortal = 9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 806E69921C42BD9C00DE3A8B;
 			remoteInfo = "Rswift-tvOS";
 		};
-		9DEE7D91253348B0006FFEB4 /* PBXContainerItemProxy */ = {
+		9DEE7DBD25334CD8006FFEB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */;
+			containerPortal = 9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 806E699B1C42BD9C00DE3A8B;
 			remoteInfo = "RswiftTests-tvOS";
 		};
-		9DEE7D93253348B0006FFEB4 /* PBXContainerItemProxy */ = {
+		9DEE7DBF25334CD8006FFEB4 /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
-			containerPortal = 9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */;
+			containerPortal = 9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */;
 			proxyType = 2;
 			remoteGlobalIDString = 2F5FBC4021355A1400A83A69;
 			remoteInfo = "Rswift-watchOS";
@@ -63,7 +65,7 @@
 			dstPath = "";
 			dstSubfolderSpec = 10;
 			files = (
-				9DEE7D97253348C8006FFEB4 /* Rswift.framework in Embed Frameworks */,
+				9DEE7DC225334CE0006FFEB4 /* Rswift.framework in Embed Frameworks */,
 			);
 			name = "Embed Frameworks";
 			runOnlyForDeploymentPostprocessing = 0;
@@ -81,7 +83,9 @@
 		9DEE7D75253345E8006FFEB4 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		9DEE7D7D253346E1006FFEB4 /* Colors.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Colors.xcassets; sourceTree = "<group>"; };
 		9DEE7D8025334720006FFEB4 /* Bridging-Header.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = "Bridging-Header.h"; sourceTree = "<group>"; };
-		9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = R.swift.Library.xcodeproj; path = R.swift.Library/R.swift.Library.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9DEE7D9A25334B71006FFEB4 /* rswift */ = {isa = PBXFileReference; lastKnownFileType = "compiled.mach-o.executable"; path = rswift; sourceTree = "<group>"; };
+		9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.pb-project"; name = R.swift.Library.xcodeproj; path = R.swift.Library/R.swift.Library.xcodeproj; sourceTree = SOURCE_ROOT; };
+		9DEE7DC325334DCA006FFEB4 /* R.generated.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = R.generated.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -89,7 +93,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9DEE7D96253348C8006FFEB4 /* Rswift.framework in Frameworks */,
+				9DEE7DC125334CE0006FFEB4 /* Rswift.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -130,6 +134,7 @@
 		9DEE7D7B25334682006FFEB4 /* System */ = {
 			isa = PBXGroup;
 			children = (
+				9DEE7D9A25334B71006FFEB4 /* rswift */,
 				9DEE7D67253345E3006FFEB4 /* AppDelegate.swift */,
 				9DEE7D69253345E3006FFEB4 /* SceneDelegate.swift */,
 				9DEE7D75253345E8006FFEB4 /* Info.plist */,
@@ -165,21 +170,9 @@
 		9DEE7D8225334896006FFEB4 /* Libraries */ = {
 			isa = PBXGroup;
 			children = (
-				9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */,
+				9DEE7D9C25334CC1006FFEB4 /* Rswift */,
 			);
 			path = Libraries;
-			sourceTree = "<group>";
-		};
-		9DEE7D84253348B0006FFEB4 /* Products */ = {
-			isa = PBXGroup;
-			children = (
-				9DEE7D8C253348B0006FFEB4 /* Rswift.framework */,
-				9DEE7D8E253348B0006FFEB4 /* RswiftTests-iOS.xctest */,
-				9DEE7D90253348B0006FFEB4 /* Rswift.framework */,
-				9DEE7D92253348B0006FFEB4 /* RswiftTests-tvOS.xctest */,
-				9DEE7D94253348B0006FFEB4 /* Rswift.framework */,
-			);
-			name = Products;
 			sourceTree = "<group>";
 		};
 		9DEE7D95253348C8006FFEB4 /* Frameworks */ = {
@@ -189,6 +182,27 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		9DEE7D9C25334CC1006FFEB4 /* Rswift */ = {
+			isa = PBXGroup;
+			children = (
+				9DEE7DC325334DCA006FFEB4 /* R.generated.swift */,
+				9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */,
+			);
+			path = Rswift;
+			sourceTree = "<group>";
+		};
+		9DEE7DB025334CD8006FFEB4 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				9DEE7DB825334CD8006FFEB4 /* Rswift.framework */,
+				9DEE7DBA25334CD8006FFEB4 /* RswiftTests-iOS.xctest */,
+				9DEE7DBC25334CD8006FFEB4 /* Rswift.framework */,
+				9DEE7DBE25334CD8006FFEB4 /* RswiftTests-tvOS.xctest */,
+				9DEE7DC025334CD8006FFEB4 /* Rswift.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -196,6 +210,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 9DEE7D78253345E8006FFEB4 /* Build configuration list for PBXNativeTarget "SwiftyPlate" */;
 			buildPhases = (
+				9DEE7D9925334AC4006FFEB4 /* ShellScript */,
 				9DEE7D60253345E3006FFEB4 /* Sources */,
 				9DEE7D61253345E3006FFEB4 /* Frameworks */,
 				9DEE7D62253345E3006FFEB4 /* Resources */,
@@ -238,8 +253,8 @@
 			projectDirPath = "";
 			projectReferences = (
 				{
-					ProductGroup = 9DEE7D84253348B0006FFEB4 /* Products */;
-					ProjectRef = 9DEE7D83253348B0006FFEB4 /* R.swift.Library.xcodeproj */;
+					ProductGroup = 9DEE7DB025334CD8006FFEB4 /* Products */;
+					ProjectRef = 9DEE7DAF25334CD8006FFEB4 /* R.swift.Library.xcodeproj */;
 				},
 			);
 			projectRoot = "";
@@ -250,39 +265,39 @@
 /* End PBXProject section */
 
 /* Begin PBXReferenceProxy section */
-		9DEE7D8C253348B0006FFEB4 /* Rswift.framework */ = {
+		9DEE7DB825334CD8006FFEB4 /* Rswift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Rswift.framework;
-			remoteRef = 9DEE7D8B253348B0006FFEB4 /* PBXContainerItemProxy */;
+			remoteRef = 9DEE7DB725334CD8006FFEB4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9DEE7D8E253348B0006FFEB4 /* RswiftTests-iOS.xctest */ = {
+		9DEE7DBA25334CD8006FFEB4 /* RswiftTests-iOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "RswiftTests-iOS.xctest";
-			remoteRef = 9DEE7D8D253348B0006FFEB4 /* PBXContainerItemProxy */;
+			remoteRef = 9DEE7DB925334CD8006FFEB4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9DEE7D90253348B0006FFEB4 /* Rswift.framework */ = {
+		9DEE7DBC25334CD8006FFEB4 /* Rswift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Rswift.framework;
-			remoteRef = 9DEE7D8F253348B0006FFEB4 /* PBXContainerItemProxy */;
+			remoteRef = 9DEE7DBB25334CD8006FFEB4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9DEE7D92253348B0006FFEB4 /* RswiftTests-tvOS.xctest */ = {
+		9DEE7DBE25334CD8006FFEB4 /* RswiftTests-tvOS.xctest */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.cfbundle;
 			path = "RswiftTests-tvOS.xctest";
-			remoteRef = 9DEE7D91253348B0006FFEB4 /* PBXContainerItemProxy */;
+			remoteRef = 9DEE7DBD25334CD8006FFEB4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
-		9DEE7D94253348B0006FFEB4 /* Rswift.framework */ = {
+		9DEE7DC025334CD8006FFEB4 /* Rswift.framework */ = {
 			isa = PBXReferenceProxy;
 			fileType = wrapper.framework;
 			path = Rswift.framework;
-			remoteRef = 9DEE7D93253348B0006FFEB4 /* PBXContainerItemProxy */;
+			remoteRef = 9DEE7DBF25334CD8006FFEB4 /* PBXContainerItemProxy */;
 			sourceTree = BUILT_PRODUCTS_DIR;
 		};
 /* End PBXReferenceProxy section */
@@ -292,6 +307,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				9DEE7D9B25334B71006FFEB4 /* rswift in Resources */,
 				9DEE7D74253345E8006FFEB4 /* LaunchScreen.storyboard in Resources */,
 				9DEE7D7E253346E1006FFEB4 /* Colors.xcassets in Resources */,
 				9DEE7D71253345E8006FFEB4 /* Assets.xcassets in Resources */,
@@ -301,6 +317,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		9DEE7D9925334AC4006FFEB4 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"$TEMP_DIR/rswift-lastrun",
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				$SRCROOT/SwiftyPlate/Shared/Libraries/Rswift/R.generated.swift,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Type a script or drag a script file from your workspace to insert its path.\n\"$SRCROOT/SwiftyPlate/System/rswift\" generate \"$SRCROOT/SwiftyPlate/Shared/Libraries/Rswift/R.generated.swift\"\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		9DEE7D60253345E3006FFEB4 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -309,6 +347,7 @@
 				9DEE7D6C253345E3006FFEB4 /* ViewController.swift in Sources */,
 				9DEE7D68253345E3006FFEB4 /* AppDelegate.swift in Sources */,
 				9DEE7D6A253345E3006FFEB4 /* SceneDelegate.swift in Sources */,
+				9DEE7DC425334DCA006FFEB4 /* R.generated.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
